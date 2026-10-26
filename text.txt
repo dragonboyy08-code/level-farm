@@ -1,0 +1,62 @@
+getgenv().Config = {
+    FPS = {
+        Cap = 15, -- 10-20 recommended
+        Boost = true, -- turning world into cubes..
+        EverythingWhite = false, -- every part in the game is white (prob saves gpu)
+    },
+
+    Accounts = {
+        ['DawnSt0rmy202254'] = 'zmrFuZcOvg',
+        ['XxWillowRiderGalaxyx'] = 'iFA9rMzaQB',
+        ['Jam3s_Slim32022'] = 'CnHpO5Kwa9',
+        ['RocketCookieChill201'] = 'Kf4Fr9ERpS',
+        ['CyberInfernoEcho2015'] = 'gVKAsClzbt',
+        ['ZaydenBearSlime99'] = 'dmNfaqsjjj',
+        ['Paisl3y_Bacon2012'] = 'gCuUFssUJs',
+        ['HeroChase202171'] = 'coT8qoqgYf',
+        ['PhoenixOrbitBlock202'] = '2Sh1k1LhYV',
+        ['GraceUltraNinja2007'] = 'FUMwhopjvR',
+        ['Blizzard_Panda94'] = 'AdEUgkmEcy',
+        ['Xx_ScarlettSlimeGala'] = 'ZYgxsc4Uyk',
+        ['Hannah_R0CKET54'] = 'Fiz0h34mcq',
+        ['XxZayden_HeroxX73'] = 'QoQiZ9MoTc',
+        ['EzraChaseEcho28'] = 'EoBorujxQK',
+        ['EagleKnightAqua2020'] = 'ShhHi87fPH',
+        ['AuroraSlimeEcho2022'] = 'n54vFtfqgF',
+        ['BlastSpark90'] = 'xKVWuO6BFw',
+        ['XxLucasSkat3rFlam3xX'] = 'GVKxAHzm2p',
+        ['FlameCraftFrost2004'] = 'McD89tsFC3',
+    },
+
+    AutoGet = {
+        Busohaki = true,
+        Geppo = true,
+        Rowboat = true,
+    },
+
+    Speed = {
+        Default = 40, -- CHANGE IT IF U GETTING TPCHECKS
+        SpedUp = 40, -- same with default
+    },
+
+    AutoRedeemCodes = {
+        "ILOVEGPO",
+        "FREE_EXP5",
+        "FREE_Drops5",
+        "ILOVEGPO_2",
+        "FREE_Drops6",
+    },
+
+    StatsUI = true,
+
+    StopOnLVL = 675,
+    OnStopLVL = "Kick",
+    AutoRollOutfit = true,
+    AutoWatchAds = false,
+
+    WebhookURL = "https://discord.com/api/webhooks/1529817977338462280/DylaxRqeXSR3N7zgRdECObb_EROZwwoEVRjgYdwxlW1LCSuCNpPyLSUn3OTmoam6AKae"
+}
+
+repeat task.wait() until game:IsLoaded()
+script_key="GlMvEFYAoulIpcIJZhQIaNhnkFOeWNQg";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/592f05b8784466324aa65b29163c64eb.lua"))()
